@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+}
+
+
+/* Format för Registrering och Logga In */
+
+.signReg {
+    background: -webkit-linear-gradient(left, #101355, #472157);
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/*  Färg och position för textrubriker. */
+
+h1,
+h2,
+h3,
+h4 {
+    color: darkgrey;
+    text-align: center;
+}
+
+
+/* Format för gränserna runt input. */
+
+input,
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+/* Format för alla input. */
+
+input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(184, 6, 157, 0.4);
+    text-align: center;
+    color: darkgrey;
+}
+
+
+/* Format för knappar. */
+
+button {
+    display: block;
+    margin: auto;
+    width: 260px;
+    height: 35px;
+    border-radius: 30px;
+    color: darkgrey;
+    font-size: 15px;
+}
+
+
+/* Format för knappar. */
+
+.submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, #472157, #101355);
+}
+
+
+/* Färg ändras när markören hamnar över knappen. */
+
+.submit:hover {
+    background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+
+
+/* Format för att publicera kommentarer */
+
+.createComment {
+    background: -webkit-linear-gradient(left, #101355, #472157);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 0;
+    bottom: 400px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* Typsnitt, storlek och färg för kommentarer. */
+
+textarea {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: darkgray;
+}
+
+
+/* Format för textrea där kommentarer publiceras. */
+
+#current_comments {
+    position: absolute;
+    margin: 25px;
+    width: 1050px;
+    height: 300px;
+    text-justify: inter-cluster;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: -webkit-linear-gradient(left, #101355, #472157);
+}
+
+
+/* Format för div när kommentarer publiceras. */
+
+.allComments {
+    background: -webkit-linear-gradient(left, #101355, #472157);
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    top: 250px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* Storlek för backgrundsbild. */
+
+.pic {
+    width: 1440px;
+    height: 700px;
+}
